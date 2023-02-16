@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 bevy = "*"
+bevy_prototype_lyon = "*"
 bevy_rapier2d = { version = "*", features = ["simd-stable", "debug-render"]}
 bevy-inspector-egui = "*"
 bevy-inspector-egui-rapier = {version = "*", features = ["rapier2d"]}
