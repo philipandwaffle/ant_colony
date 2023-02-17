@@ -4,6 +4,7 @@ use bevy_rapier2d::prelude::*;
 
 use crate::resource::ResourcePlugin;
 
+mod ant;
 mod camera;
 mod resource;
 
